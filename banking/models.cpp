@@ -82,6 +82,8 @@ bool ATM::verify_pin(std::string pin) {
     // Par exemple, vérifiez si le code PIN correspond à celui de la carte
     // Pour l'exemple, supposons que le code PIN est correct si "1234" est saisi
     return pin == "1234";
+    // C'est une bonne idée de future implémentation, on peut facilement immagine
+    // une propriété Card::pinCode
 }
 
 void ATM::display_balance(int balance) {

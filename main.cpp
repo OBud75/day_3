@@ -36,6 +36,16 @@ int main() {
     } else {
         std::cout << "Code PIN incorrect. Transaction annulée." << std::endl;
     }
+    // Vous vérifiez le code pin ici puis de nouveau dans la fonction process
 
     return 0;
 }
+
+// Les fichiers headers servent normalement uniquement aux déclarations
+// Puis les implémentations dans les fichiers source (.cpp)
+
+// Les noms sont bien choisis et vous implémentez votre logique, ce qui est apprécié.
+// Attention vous vérifiez le code pin 2 fois (la seconde fois sera forcément validée puisqu'on est déjà dans le if (atm.verify()))
+// Prennez le temps d'aller jusqu'au bout de vos idées puis amusez vous en faisant évoluer votre système en ajoutant ce que vous souahitez!
+
+// 13/20
